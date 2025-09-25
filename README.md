@@ -1,50 +1,54 @@
-# Welcome to your Expo app 👋
+# 📚 Mini Biblioteca Digital App 
+Este proyecto es una aplicación móvil desarrollada en React Native con Expo. La aplicación simula una mini biblioteca digital donde los usuarios pueden explorar colecciones de libros, marcar favoritos, gestionar lecturas pendientes y leer contenido de libros directamente en la app, asi como tambien revisar el perfil de quien desarrollo la app.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 🎯Funcionalidades
 
-## Get started
+- **Drawer Navigator:** Menú lateral con opciones de Inicio, Configuración y About
+- **Home Screen:** Cuadrícula de colecciones de libros (mínimo 5 colecciones)
+- **Tab Navigator:** Navegación por pestañas dentro de cada colección (Libros, Favoritos, Pendientes)
+- **Stack Navigator:** Navegación en pila para lista de libros → detalle → lectura
+- **Gestión de Libros:**
+   - Lista de libros con título, miniatura y autor. <br>
+   - Pantalla de detalle con imagen grande, descripción y botones de acción. <br>
+   - Pantalla de lectura con contenido scrollable
+- **Sistema de Favoritos:** Marcar/desmarcar libros como favoritos
+- **Lista de Pendientes:** Gestionar libros por leer con cambio de estado "Pendiente" ↔ "Leído"
+- **About Screen:** Información del desarrollador con datos personales
+  
 
-1. Install dependencies
+## 🛠 Tecnologías Utilizadas
 
-   ```bash
-   npm install
-   ```
+- **Expo** - Framework para desarrollo móvil
+- **React Navigation** - Navegación (Drawer, Tab, Stack)
+- **@expo/vector-icons** - Iconografía consistente
+- **React Native** - Desarrollo nativo con JavaScript
+- **Context API** - Gestión de estado global
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
+## 🎨 Características Técnicas
 
-In the output, you'll find options to open the app in a
+- **Estado Global:** Context API para favoritos, pendientes y leídos
+- **Navegación Anidada:** Combinación de Drawer, Tab y Stack Navigators
+- **Dinamismo:** Estados reactivos y cambios de color en tiempo real
+- **Alertas:** Confirmaciones para acciones importantes
+- **Responsive:** Diseño adaptable a diferentes tamaños de pantalla
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📚 Colecciones Incluidas
 
-## Get a fresh project
+- **Misterio y Suspenso** - Thrillers psicológicos y novelas de misterio
+- **Fantasía** - Mundos imaginarios y épicas aventuras
+- **Historia Universal** - Análisis histórico y evolutivo
+- **Ciencia Ficción** - Futuros distópicos y space operas
+- **Romance** - Historias de amor y relaciones humanas
 
-When you're ready, run:
+## 👨🏽‍💻 Autor
+- [Daniel Mancia](https://github.com/Daniel-Mancia22) - DevMadCode
+- **Versión:** 1.0.0
 
-```bash
-npm run reset-project
-```
+## 📄 Notas del Proyecto
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- **Propósito Académico:** Desarrollado para el primer examen parcial de "Desarrollo de Aplicaciones para Dispositivos Móviles"
+- **Datos Locales:** Toda la información de libros y colecciones está definida localmente
+- **Extensible:** La arquitectura permite fácil integración con APIs externas en el futuro
+- **Base Sólida:** Código estructurado para futuras mejoras y funcionalidades adicionales
