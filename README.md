@@ -42,9 +42,8 @@ Este proyecto es una aplicación móvil desarrollada en React Native con Expo. L
 - **Ciencia Ficción** - Futuros distópicos y space operas
 - **Romance** - Historias de amor y relaciones humanas
 
-## 👨🏽‍💻 Autor
+## 👨🏽‍💻 Desarrollador
 - [Daniel Mancia](https://github.com/Daniel-Mancia22) - DevMadCode
-- **Versión:** 1.0.0
 
 ## 📄 Notas del Proyecto
 
