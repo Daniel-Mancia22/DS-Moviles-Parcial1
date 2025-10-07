@@ -43,7 +43,7 @@ Este proyecto es una aplicación móvil desarrollada en React Native con Expo. L
 - **Romance** - Historias de amor y relaciones humanas
 
 ## 👨🏽‍💻 Desarrollador
-- **[Daniel Mancia](https://github.com/Daniel-Mancia22) - DevMadCode**
+- [Daniel Mancia](https://github.com/Daniel-Mancia22) - DevMadCode
 
 ## 📄 Notas del Proyecto
 
