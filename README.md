@@ -1,5 +1,5 @@
 # 📚 Mini Biblioteca Digital App 
-Este proyecto es una aplicación móvil desarrollada en React Native con Expo. La aplicación simula una mini biblioteca digital donde los usuarios pueden explorar colecciones de libros, marcar favoritos, marcar como leido, gestionar lecturas pendientes y leer contenido de libros directamente en la app, asi como tambien revisar el perfil de quien desarrollo la app.
+Este proyecto es una aplicación móvil desarrollada en React Native con Expo. La aplicación simula una mini biblioteca digital donde los usuarios pueden explorar colecciones de libros, marcar favoritos, gestionar lecturas pendientes y leer contenido de libros directamente en la app, asi como tambien revisar el perfil de quien desarrollo la app.
 
 ## 🎯Funcionalidades
 
